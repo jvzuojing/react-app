@@ -1,0 +1,19 @@
+{
+    "name": "react-app",
+    "version": "0.0.1",
+    "description": "test",
+    "keywords": [
+        "react",
+        "reactjs"
+    ],
+    "author": "lss",
+    "licenses": "MIT",
+    "repository": {
+        "url": "https://github.com/jvzuojing/react-app.git",
+        "type": "git"
+    },
+    "bugs": {
+        "url": "https://github.com/jvzuojing/react-app/issues"
+    },
+    "homepage": "https://github.com/jvzuojing/react-app"
+}

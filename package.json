@@ -2,6 +2,9 @@
     "name": "react-app",
     "version": "0.0.1",
     "description": "test",
+    "scripts": {
+        "lint": "eslint src test"
+    },
     "keywords": [
         "react",
         "reactjs"
@@ -15,5 +18,28 @@
     "bugs": {
         "url": "https://github.com/jvzuojing/react-app/issues"
     },
-    "homepage": "https://github.com/jvzuojing/react-app"
+    "homepage": "https://github.com/jvzuojing/react-app",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-eslint": "^10.1.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "eslint": "^8.19.0",
+        "eslint-plugin-react": "^7.30.1",
+        "istanbul-instrumenter-loader": "^3.0.1",
+        "karma": "^6.4.0",
+        "karma-chai": "^0.1.0",
+        "karma-chrome-launcher": "^3.1.1",
+        "karma-coverage": "^2.2.0",
+        "karma-coveralls": "^2.1.0",
+        "karma-mocha": "^2.0.1",
+        "karma-sourcemap-loader": "^0.3.8",
+        "karma-webpack": "^5.0.0"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
 }
